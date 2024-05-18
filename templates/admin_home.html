@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container home">
+        <h2>Welcome, {{ username }} (Admin)</h2>
+        <button class="logout-button" onclick="window.location.href='{{ url_for('logout') }}'">Logout</button>
+    </div>
+</body>
+</html>

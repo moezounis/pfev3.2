@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #2d572c;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #2d572c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container Styles */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #2d572c;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2d572c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1e3c1b;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: red;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+/* Navigation Links */
+.nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav a {
+    margin: 0 10px;
+}
+
+/* Admin and User Home Styles */
+.home {
+    text-align: center;
+}
+
+.logout-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #b22222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+logout-button:hover {
+    background-color: #8b0000;
+}
+
+/* Prediction Form Styles */
+.prediction-form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.prediction-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2d572c;
+}
+
+.prediction-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.prediction-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2d572c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.prediction-form button[type="submit"]:hover {
+    background-color: #1e3c1b;
+}
+
+/* Prediction Result Styles */
+.prediction-result {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #e6ffe6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #2d572c;
+    font-size: 18px;
+}
